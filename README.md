@@ -1,4 +1,4 @@
-# VPass
+# Viper Simple Pass
 
 ## Usage
 
