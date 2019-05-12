@@ -21,7 +21,7 @@ for arg in args[1:]:
     max_len = int_arg
     break
 
-e = str(time.time() + random.randint(0, 2**32))
+e = str(time.time() + random.randint(0, 2**32)).join(list(sys.argv))
 
 pw = list(hashlib.sha512(e).hexdigest())
 if len(pw) > max_len:
